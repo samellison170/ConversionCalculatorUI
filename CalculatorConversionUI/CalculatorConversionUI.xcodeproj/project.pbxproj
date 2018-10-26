@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		220A189221818280006BB37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A189121818280006BB37C /* AppDelegate.swift */; };
-		220A189421818280006BB37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A189321818280006BB37C /* ViewController.swift */; };
 		220A189721818280006BB37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A189521818280006BB37C /* Main.storyboard */; };
 		220A189921818281006BB37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220A189821818281006BB37C /* Assets.xcassets */; };
 		220A189C21818281006BB37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A189A21818281006BB37C /* LaunchScreen.storyboard */; };
 		220A18A721818281006BB37C /* CalculatorConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A18A621818281006BB37C /* CalculatorConversionUITests.swift */; };
 		220A18B221818281006BB37C /* CalculatorConversionUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A18B121818281006BB37C /* CalculatorConversionUIUITests.swift */; };
+		220A18C221818A60006BB37C /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A18C121818A60006BB37C /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		220A188E21818280006BB37C /* CalculatorConversionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorConversionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		220A189121818280006BB37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		220A189321818280006BB37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		220A189621818280006BB37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		220A189821818281006BB37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220A189B21818281006BB37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		220A18AD21818281006BB37C /* CalculatorConversionUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorConversionUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		220A18B121818281006BB37C /* CalculatorConversionUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorConversionUIUITests.swift; sourceTree = "<group>"; };
 		220A18B321818281006BB37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220A18C121818A60006BB37C /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				220A189121818280006BB37C /* AppDelegate.swift */,
-				220A189321818280006BB37C /* ViewController.swift */,
 				220A189521818280006BB37C /* Main.storyboard */,
 				220A189821818281006BB37C /* Assets.xcassets */,
 				220A189A21818281006BB37C /* LaunchScreen.storyboard */,
 				220A189D21818281006BB37C /* Info.plist */,
+				220A18C121818A60006BB37C /* ConverterViewController.swift */,
 			);
 			path = CalculatorConversionUI;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220A189421818280006BB37C /* ViewController.swift in Sources */,
 				220A189221818280006BB37C /* AppDelegate.swift in Sources */,
+				220A18C221818A60006BB37C /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
